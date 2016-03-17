@@ -1,0 +1,299 @@
+
+
+/* Все тело сайта, задаем ширину, высоту, выравниваем по центру*/
+body {
+ width: 800px; 
+    text-align: center;
+    margin: 0 auto;
+    height: 100%;
+    display: table;
+}
+
+* {
+ transition: all 0.2s;  
+}
+
+#head {
+ height: 41px;
+    
+    background: white;
+    float: left;
+    margin-left: 20%;
+}
+
+
+
+/*Меню сайта */
+#nav {
+    
+ float: right;
+    margin-right: 100px;
+   
+}
+
+#categ {
+    clear: both;
+    margin-left: -50%;
+}
+
+/* Первая колонка новостей*/
+#post1 {
+ float: left;   
+    padding-left: 1.5%;
+    width: 23.125%;
+    font-size: 12px;
+    
+}
+
+/*Задаем выравнивание для всех абзацев в новостях */
+.article {
+ text-align: justify;   
+}
+
+h4 {
+ text-align: left;   
+}
+
+#post2 {
+ float: left;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    width: 23.125%;
+    font-size: 12px;
+}
+
+#post3{
+    float: left;
+    width: 23.125%;
+    padding-right: 1.5%;
+    font-size: 12px;
+
+}
+
+#post4 {
+ float: left;
+    width: 23.125%;
+    padding-right: 1.5%;
+    font-size: 12px;
+    clear: right;
+}
+
+#posts {
+ padding-top: 5px;   
+ min-height: 100%;
+       padding-bottom: 11%;
+    display: table-row;
+    height: 100%;
+}
+
+footer {
+ 
+    position: relative;
+    clear: both;
+    left: 0;
+  bottom: 0;
+   margin-left: 30%;
+  margin-right: 100px;
+  height: 10%;
+    margin-top: -10%;
+    padding-top: 100px;;
+}
+
+#icons {
+   padding-left: 300px;
+float: right;
+}
+
+
+
+#wide {
+ clear: both;   
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+   text-align: center;
+    overflow: hidden;
+}
+
+#wide img {
+ max-width: 90%;   
+}
+
+#wide p {
+    text-align: justify;
+    text-indent: 20px;
+}
+
+#wide p:first-letter {
+ color: red;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+/*медиа-запрос */
+@media screen and (min-width: 1200px) {
+ body {
+  width: 1200px;  
+    
+     }
+    
+    #pol {
+     display: none;
+    }
+  
+}
+
+/*медиа-запрос */
+@media screen and (min-width: 410px) and (max-width: 599px) {
+ body {
+  width: 480px;  
+     margin: 0 auto;
+     text-align: center;
+ }
+    #head {
+     min-height: 45px; 
+      
+       margin-left: 180px;
+    }
+    
+    #categ {
+     margin: 0 auto;
+        padding-bottom: 10px;
+       
+    }
+    
+    #post1, #post2 {
+     width: 45%;
+      
+    }
+    
+    #post3, #post4 {
+        display: none;
+    }
+    
+    footer {
+     display: none;   
+    }
+    
+    #nav {
+     display: none;
+    }
+    
+     #pol {
+     display: none;
+    }
+    
+    * {
+     overflow-x: hidden;   
+    }
+}
+
+/*медиа-запрос */
+@media screen and (min-width: 600px) and (max-width: 795px) {
+ body {
+  width: 80%;   
+ }
+    #head {
+     min-height: 45px;   
+    }
+    
+    #categ {
+     margin: 0 auto;
+        text-align: left;
+    }
+    
+    #post1, #post2, #post3 {
+     width: 30%;
+     
+    }
+    
+    #post3 {
+       margin-left: 1.5%;  
+    }
+    
+    #post4 {
+        display: none;
+    }
+    
+    
+    footer {
+     display: none;
+    }
+    
+    #pol {
+     display: none;
+    }
+    
+    * {
+     overflow-x: hidden;   
+    }
+}
+
+
+/*медиа-запрос */
+@media screen and (min-width: 205px) and (max-width: 409px) {
+ body {
+  width: 200px;   
+ }
+    
+    #head {
+     min-height: 45px; 
+       text-align: center;
+       margin: 0 auto;
+        margin-left: 55px;
+        
+    }
+    
+    #nav {
+     
+        overflow: hidden;
+        width: 190px;
+     
+       text-align: center;
+        margin: 0 auto;
+       
+      
+    }
+    
+    #categ {
+     width: 190px; 
+      margin: 0 auto;
+    }
+    
+    #pol {
+        margin: 0 auto;
+        clear: both;
+    }
+    
+    .menu-bottom {
+        margin-top: -20px;
+    margin-bottom: -5px;    
+    }
+    
+    #post1 {
+     width: 85%;
+        margin: 0 auto;
+        float: none;
+        text-align: center;
+    }
+    
+    #post2, #post3, #post4 {
+        display: none;
+    }
+    footer {
+   
+        display: none;
+    }
+    
+    * {
+     overflow-x: hidden;   
+    }
+    }
+

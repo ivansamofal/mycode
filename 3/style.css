@@ -1,0 +1,146 @@
+
+
+
+
+body {
+ background: green;
+    max-width: 800px;
+    background-image: url(img/bg06.gif);
+    margin: 0 auto;
+}
+
+#logo img {
+ width: 43.75%;
+    border-radius: 10px;
+    
+    
+}
+#logo {
+ text-align: center;  
+    padding-top: 10px;
+}
+
+
+
+#feat img {
+ 
+ clear: none;
+    
+width: 100%;
+}
+
+#feat {
+ width: 50%;
+    height: 195px;
+ 
+    float: left;
+}
+
+#feat_right {
+    width: 49.5%;
+    height: 195px;
+    float: right;
+ clear: right;
+  
+}
+
+#search {
+    width: 31.25%;
+    float: right;
+    padding-top: 10px;
+}
+
+#search img {
+ width: 100%;   
+   border-radius: 10px;
+       
+    
+}
+
+footer {
+ text-align: center;   
+    clear: both;
+}
+
+#menu li {
+    display: inline;
+    padding: 10px;
+   background: #d5d0c7;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+
+#menu li:hover {
+    background: white;
+    
+    display: inline;
+    padding: 10px;
+}
+
+#menu {
+    width: 550px;
+ float: left; 
+    
+}
+
+#menu a {
+ text-decoration: none;  
+    color: black;
+}
+
+#left a {
+ text-decoration: none;
+    color: black;
+}
+
+#left a:hover {
+ background: white;
+transition: 0.7s;
+    border-radius: 4px;
+}
+
+#left {
+ width: 31.25%;
+
+    float: left;
+}
+
+#left li {
+ padding: 2px;
+    margin-left: 40px;
+}
+
+#right {
+ width: 550px;
+    
+    float: right;
+}
+
+#right p:first-letter {
+    color: white;
+}
+
+#right p {
+ margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+h2, h3 {
+ text-align: center;   
+}
+
+h4 {
+ font-style: italic;   
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+ body {
+  width: 60%;   
+ }
+}
