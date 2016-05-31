@@ -1,7 +1,7 @@
 <?
 function connect () 
 {
-    $connect = mysqli_connect ('zhvbook.mysql.ukraine.com.ua', 'zhvbook_articles', 'v36hzpfe', 'zhvbook_articles');
+    $connect = mysqli_connect ('host', 'login', 'password', 'db');
   
     return $connect;
 }
